@@ -2,29 +2,18 @@
 
 #### _{Brief description of application}, {Date of current version}_
 
-#### By _**{List of contributors}**_
+#### By _**J. Michael Brown**_
 
 ## Description
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
-## Specifications
-* _**When User inputs a simple "input", the expected result should be a completed simple task "expected result".**_  
-_Example Input: "input"_  
-_Example Output: "expected result"_
-* _**When User inputs a slightly more complex input "Input Two", the expected result should handle this new, and any previous specifications.**_  
-_Example Input: "Ha$~vE!"_  
-_Example Output: "have"_
-
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Copy this Project to your Desktop_
+* _**$ ruby app.rb** (Run: "ruby app.rb" in your terminal)_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_{Extra/ alternative methods, anything they should know?}_
 
 ## Known Bugs
 
@@ -32,11 +21,11 @@ _{Are there issues that have not yet been resolved that you want to let users kn
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_J. Michael Brown @jmichaelbrown132737@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Ruby ver 2.5.1, Sinatra, Capybara_
 
 ### License
 
