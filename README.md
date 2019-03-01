@@ -1,37 +1,66 @@
-# _{Application Name}_
+# {Name of Project}
 
-#### _{Brief description of application}, {Date of current version}_
+_{Short Project Description}_
 
-#### By _**J. Michael Brown**_
+### Developed By
+J. Michael Brown
+
+## Table of contents
+**[Description](#description)**    
+**[Setup & Installation](#setup-and-installation)**    
+**[Known Bugs](#known-bugs)**    
+**[Support](#support-and-contact-details)**    
+**[Technologies Used](#technologies-used)**    
+**[License](#license)**    
+**[Copyright](#copyright)**   
+**[Dev Notes](#developer-notes)**   
+**[Component Structure](#component-structure)**   
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+{Detailed Description of Application}
 
-## Setup/Installation Requirements
+## Setup and Installation
+Here are some links in case you need information about setup for other operating systems:  
+[Node JS](https://nodejs.org/en/);
 
-* _Copy this Project to your Desktop_
-* _**$ ruby app.rb** (Run: "ruby app.rb" in your terminal)_
-
-_{Extra/ alternative methods, anything they should know?}_
+(If you cannot install node you still need to install Git's [Homebrew](https://brew.sh/) on your device)
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+* {List of all Bugs}
 
 ## Support and contact details
+_If you run into any issues or have questions, ideas or concerns, or if you want to make a contribution to the code. You can email me_
 
-_J. Michael Brown @jmichaelbrown132737@gmail.com_
+Michael Brown :: [jmichaelbrown132737@gmail.com](jmichaelbrown132737@gmail.com)
 
 ## Technologies Used
+(This wonderful table was lovingly pilfered from [Tanvi Garg](https://github.com/TanviCodeLife) and modestly edited for personal sensibilities.)
 
-_Ruby ver 2.5.1, Sinatra, Capybara_
+For versions and a full list of dependencies, plugins, and scripts see the "devDependencies" section in [package.json](./package.json).  
+
+| Dependency | Description |
+| --- | --- |
+| css-loader| compiler plugin to load css files |
+| style-loader| compiler plugin to use custom style sheets |
+| react | REACT core plugin |
+| react-router-dom | REACT web routing plugin |
+| babel-core | Babel compiler core |
+| babel-loaded | Babel loader for webpack |
+| babel-present-es2015 | Specifies how Babel can convert ES6 to ES5 |
+| eslint | Identifies and reports on patterns found in Javscript code |
+| eslint-loader | ESLint loader for webpack |
+| html-webpack-plugin | Simplifies creation of HTML files to serve webpack bundles |
+| webpack | A module bundler used to bundle JavaScript files and additional resources   *Note - Remove carrot sign ^ in version number if webpack issues occur* |
+| webpack-cli | Use webpack from command line |
+| webpack-dev-server | Provides live reloading during development |
 
 ### License
 
 MIT License
 
-Copyright (c) 2018, _J. Michael Brown_  
+Copyright (c) 2018, ___J. Michael Brown___  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -49,4 +78,15 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE._
+SOFTWARE.
+
+## Developer Notes    
+README.md template provided by [Ralph Perdomo](https://github.com/pseudoralph)
+
+{Additional links to plug helpful information}
+
+[See in depth Dev Notes](./DEV_NOTES.md)
+
+## Component Structure
+
+![alt text](src/assets/component-tree.png)
